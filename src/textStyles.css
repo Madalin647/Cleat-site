@@ -1,0 +1,62 @@
+@font-face{
+  font-family: "Marker";
+  src: url("/fonts/Permanent_Marker/PermanentMarker-Regular.ttf") format("truetype");
+  font-weight: 100;
+}
+
+.Cleat-name{
+  font-family: 'Marker';
+  padding-top: 5vh;
+  font-size: clamp(20px,6vmax,80px);
+  padding-right: 10vw;
+  margin-bottom: 0;
+}
+.Cleat-name2{
+  font-family: 'Marker';
+  font-size: clamp(20px,6vmax,80px);
+  margin-bottom: 0;
+}
+
+.Cleat-description{
+  max-width: clamp(150px,30vw,350px);
+  padding-top: 0;
+  font-size: clamp(12px,2vmax,20px);
+  font-variation-settings: 'wght' 700;
+}
+
+.start-text-container{
+  position: absolute;
+  right: -60vw;
+  background: linear-gradient(100deg, white,rgb(146, 146, 146));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transform: scale(0.3);
+}
+
+#Start-d1{
+position: sticky;
+left: 10vw;
+top: 40vh;
+overflow: hidden;
+font-size: clamp(12px,6vmax,40px);
+font-variation-settings: 'wght' 600;
+}
+
+#Start-d2{
+position: sticky;
+left: 70vw;
+top: 20vh;
+overflow: hidden;
+font-size: clamp(10px,4vmax,30px);
+font-variation-settings: 'wght' 600;
+}
+
+#Start-d3{
+position: sticky;
+left: 60vw;
+top: 70vh;
+overflow: hidden;
+font-size:clamp(10px,5vmax,34px);
+font-variation-settings: 'wght' 600;
+}

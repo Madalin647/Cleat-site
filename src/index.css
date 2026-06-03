@@ -1,0 +1,94 @@
+
+@font-face{
+  font-family: "Outfit";
+  src: url("/fonts/Outfit/Outfit-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+body{
+  padding: 0;
+}
+
+*{
+  scrollbar-color: rgb(255, 255, 255) rgba(0,0,0,0);
+
+  cursor: none;
+}
+::-webkit-scrollbar{
+  width: none;
+}
+
+
+:root {
+  font-family: "Outfit",sans-serif ;
+  line-height: 1.5;
+  font-variation-settings: 'wght' 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+  padding: 0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  font-variation-settings:inherit;
+  font: 1.2em Outfit;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  display: flex;
+  align-content: center;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.758);
+}
+button:hover {
+  color: white;
+}
+
+
+.tracker{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  top: 50vh;
+  left:50%;
+  border: 2px solid rgba(255, 255, 255, 0.818);
+  border-radius: 50%;
+  z-index: 100;
+  pointer-events: none;
+  animation: appear 10s forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+button:hover ~ .tracker{
+  width: 60px;
+}
