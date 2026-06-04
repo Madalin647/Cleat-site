@@ -1,3 +1,4 @@
+
 # Daisto
 
 This site is made as a project and has no comercial intent
@@ -8,7 +9,7 @@ The models in the site are modification of an Nike mercurial vapor pro cleat. If
 
 The site is only for desktops,  you can try on a mobile device but is broken for the moment 
 
-view it at https://madalin647.github.io/Cleat-site
+view it [here](https://madalin647.github.io/Cleat-site)
 
 # Technologies used
 
